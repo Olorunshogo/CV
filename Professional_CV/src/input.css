@@ -1,4 +1,28 @@
 
 @tailwind base;
+@layer base {
+    .blue-icon {
+        font-size: 1.2rem;
+        color: #0284c7; /* Sky 600*/
+        /* color: #0369a1; Sky 700 */
+        /* color: #075985; */
+        margin-right: 0.5rem;
+    }
+
+    h1, h2, h3, h4 {
+        color: black;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+
+    section {
+        margin-top: 0.5rem;
+    }
+}
+
 @tailwind components;
 @tailwind utilities;
